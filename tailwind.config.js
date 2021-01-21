@@ -7,7 +7,10 @@ module.exports = {
     },
     extend: {
       height: {
-        mob: "30rem",
+        mob: "34rem",
+      },
+      maxHeight: {
+        mob: "34rem",
       },
       colors: {
         "black-80": "#40434C",

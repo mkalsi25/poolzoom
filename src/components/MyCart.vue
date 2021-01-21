@@ -52,7 +52,7 @@
             <h4 class="text-center">Empty</h4>
           </div>
         </div>
-        <div v-else class="h-mob overflow-y-auto mb-2">
+        <div v-else class="max-h-mob h-full overflow-y-auto mb-2">
           <div
             class="border w-full rounded my-3"
             role="menuitem"
@@ -139,11 +139,11 @@
             <h4 class="text-center">Empty</h4>
           </div>
         </div>
-        <div v-else class=" h-96 overflow-y-auto">
+        <div v-else class=" h-full">
           <div
             class="border w-full rounded my-3"
             role="menuitem"
-            v-for="(cart, index) in carts"
+            v-for="(cart, index) in carts.slice(0, 3)"
             :key="index"
           >
             <div class="flex items-start p-2">
@@ -177,6 +177,11 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="pb-3">
+          <span v-if="carts.length > 3" class="text-black-80 font-medium "
+            >+{{ carts.length - 3 }} more
+          </span>
         </div>
         <div class="flex w-full text-black-80">
           <span class="mr-auto block w-full"

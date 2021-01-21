@@ -1,5 +1,12 @@
 <template>
-  <div class="bg-white fixed top-0 w-full z-50">
+  <div
+    class="bg-white fixed w-full z-50"
+    :class="[
+      isSticky
+        ? 'top-0 transition duration-200 ease-in-out shadow-xl'
+        : 'transition duration-200 ease-in-out',
+    ]"
+  >
     <div class="grid grid-cols-12 items-center ">
       <div
         class="col-span-6 lg:col-span-2 col-start-1 row-start-1 px-4 py-2 lg:py-6 flex"
@@ -75,7 +82,12 @@
         <MyCart v-if="isOpen" :carts="carts" />
       </div>
       <div
-        class="col-span-12 bg-gray-50 py-0 lg:py-4 lg:flex justify-between px-16"
+        class="col-span-12 bg-gray-50 py-0 lg:py-4 justify-between px-16"
+        :class="[
+          isSticky
+            ? 'lg:hidden transition duration-200 ease-in-out'
+            : 'lg:flex transition duration-200 ease-in-out',
+        ]"
       >
         <div class="absolute top-0 left-0">
           <div
@@ -155,7 +167,7 @@
                 aria-labelledby="options-menu"
               >
                 <div class="h-full grid grid-cols-2">
-                  <ul class="px-3 font-semibold py-1">
+                  <ul class="px-3 font-semibold py-3">
                     <li
                       class="py-1"
                       v-for="(i, index) in item.accessories"
@@ -164,7 +176,9 @@
                       {{ i.title }}
                     </li>
                   </ul>
-                  <ul class="border-l-2 border-gray-200 font-light px-4 py-1">
+                  <ul
+                    class="border-l-2 border-gray-200 font-light px-4 py-3 text-sm"
+                  >
                     <li
                       class="py-1"
                       v-for="(i, index) in item.accessories"
@@ -194,12 +208,29 @@ export default {
     MyAccount,
     Search,
   },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      this.scrollPosition = window.scrollY;
+      if (this.scrollPosition >= 10) {
+        this.isSticky = true;
+      } else {
+        this.isSticky = false;
+      }
+    },
+  },
   data() {
     return {
       isOpen: false,
       isClose: false,
       isMenu: false,
       account: false,
+      isSticky: false,
       activeBtn: "",
       carts: [
         {
