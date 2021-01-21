@@ -33,72 +33,13 @@
             >Search Result</span
           >
           <ul class="text-lg py-2">
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong> in all department
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong> pole
-              </a>
-            </li>
-            <li class="py-1">
+            <li class="py-1" v-for="(l, index) in line" :key="index">
               <a
                 href="#"
                 class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
               >
                 <strong>{{ search }}</strong
-                >s
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong
-                >ing
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong> for polaris
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong> bag
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong
-                >ing
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong
-                >ing motors
+                >{{ l }}
               </a>
             </li>
           </ul>
@@ -191,6 +132,17 @@ export default {
     return {
       isSticky: false,
       search: "",
+      line: [
+        " in all departments",
+        " pole",
+        "s",
+        " for polaris",
+        " bag",
+        " poles",
+        "er",
+        " for polaris",
+        " bag",
+      ],
     };
   },
 };
