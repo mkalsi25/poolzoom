@@ -212,21 +212,21 @@
             src="https://s3-alpha-sig.figma.com/img/2723/8714/0665e03f7095f56bc78a595d25581a21?Expires=1612137600&Signature=B3FyRhr-Qxs16uBSC5eZ282VERPI~F8HFT9xq4OyCTxvdTWhP4UNvYYN4j7-cXxtainFXxC1mi3U2~eOyAbwqUm8YAStEKOx~INQEjFbB2fmsHK5sfjYonZIdsLn~XzYwpRqy2vw2p-dcAxlx1zfJ8cACHYEQhINwE1yjMW4UuIyKEePWPctgnGc8e68VVP6zIZL0Ca4gSR7YTwdxroEjt~kHUQ-ynp-7TUI27EAQjPKu5gXG2J-7gWJGmbTCPMkZD9MgqtJCm6kJmD7iy-EWaqpCwOzh2tvm4BWWtcyoE7AlunuTbGMwcIve6ExhNEdIY0ZLWTvJUKf57wY1kEUUA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             class="mx-auto h-48 w-auto"
           />
-          <h4 class="text-xl text-center">Equipment</h4>
+          <h4 class="text-xl text-center font-semibold">Equipment</h4>
         </div>
         <div>
           <img
             src="https://s3-alpha-sig.figma.com/img/3b88/77e6/caf4298043b61f40bd7412341889a998?Expires=1612137600&Signature=CJxrwD5KYGKc53NIy~LzONr1rF6CcU5OCbCa6r3JLyMlKPUDXeD7IjXqNA8GtEONtHVXf9TW41tRThj~omz8MwbKj8SlBNx4VpkVQau1cqdYGKw0C7TBZMv4GexH8kEf5JDG~jFh9QNsf9NWGkvfi0VupC4xVhuODjbBmBaRQ80V3IpTQRPp9GrOC0bp~G0reS6UGhPDXbOA6QLjmuMLNrr5ZtQNDyFRtZ5CBFKoVVqDBCCXXrJ0iHhuRqfNEeDjiUpk2UnDp7pYS6kkaQxsqW4YWsfDif6R13klIymuuMPzseKsVsC9jxcaLTuGujYTny~WTXleKHxr9Nt6cgskNA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             class="mx-auto h-48 w-auto"
           />
-          <h4 class="text-xl text-center">Parts & Hardware</h4>
+          <h4 class="text-xl text-center font-semibold">Parts & Hardware</h4>
         </div>
         <div>
           <img
             src="https://s3-alpha-sig.figma.com/img/e9a3/4275/ff1c4d859e03a9b5ec2358840f9c9d32?Expires=1612137600&Signature=HPmq1Id~l2SjJiWnw9oUd9soPwxxY~NRB59DS2MrUg3ejAw6z8h5dinnmUNUY9Pah0iSX71oyA1C~jhvjHKqLSP7Z8meLEBKOTB6YG3YBmFvcWoeYwJ~buyMLJ4Z7tzR5uLIBnD0W3jwLt~XP5U83DZxrCg1Mazkmw4Ul38wJVkPsWPN8CKaYoCYgfONhfKLUUSTKWpxYxTkd81iXy4zgUfzjRSpGwfiOOhdErrECS3MwSKPSBB-VVYhyIM6ldt0YxaOG~vIuGibu8vwyr7uURQEQia8qOR6LB2pCh6ZlENouD~JndIsdgVmc4W9hkripcKvRrQ0iP7S49eMUr63mA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             class="mx-auto h-48 w-auto"
           />
-          <h4 class="text-xl text-center">Accessories</h4>
+          <h4 class="text-xl text-center font-semibold">Accessories</h4>
         </div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-4 px-4 lg:px-16">
@@ -235,28 +235,28 @@
             src="https://s3-alpha-sig.figma.com/img/d15b/358a/d4923379c554fbf570bc82b2bca805f7?Expires=1612137600&Signature=LkpJvpwK2kHXIXgRet9oXsuI5aMaYJ-EFH7swXI8nJiaulxihI8o1cxfVUQCsO5JADYID~04QAhSPfbLjWZDbYcmfo-g~Wr1dppTQwLfxEoA7QO4h2hm2WFIJVxlrEkwi6W-j9o0wJ1ccwnTCu-Fhcf3QhsNWpdZbNGaXG65gAZnN2LQyE8JN824TGtuQRfvEs4qet7spfK10784MaI4HUjuENavU4-ZPsCth9UVUIPL-foPleONNTyxR0oRKl9KxI~Q4ivWKkzWfZ9EhiBUbEtgMyqPYIVRpmLgc3sbXQFYSWBLYjF7OFo1NMcVOFYTHKmg8DjkkJw-fblmY9YwkA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             class="mx-auto h-48 w-auto"
           />
-          <h4 class="text-xl text-center">Above Ground Pools</h4>
+          <h4 class="text-xl text-center font-semibold">Above Ground Pools</h4>
         </div>
         <div>
           <img
             src="https://s3-alpha-sig.figma.com/img/9db8/bb8e/8df7160d0a0795e8eaa47258300602c1?Expires=1612137600&Signature=c93sFRg8lpv7ImcZw6N7ujdyAg5OL65zNLjiKM9pMmyDqV6Ttm8IBk~CrS3Xo-Mcfrrgdo3nYLMCIvVrZeKuzMuZecuIFE5J3NCg5s0FRsFMChvLxiLDftK351WbkG1E5DJ7yPM-1n9qHtQqYe7UOMJbCvH9VfZ6PBtLnntKZo72B~oav7848pwcG-585DTkKxSL-o1zdiB7u5SWo5erqLvxjhkn2bGT8Hyj4kV9f9XBijd9OSlwvRjoOFJVLJnABJ~WmctbTLmksP34SyOmm77s2EIeUvVdJWRV54ovXcr~WXoZFAvdDTkrsY380kNHsFZ7G1OXri71FP1v1iLMSw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             class="mx-auto h-48 w-auto"
           />
-          <h4 class="text-xl text-center">Pool Covers</h4>
+          <h4 class="text-xl text-center font-semibold">Pool Covers</h4>
         </div>
         <div>
           <img
             src="https://s3-alpha-sig.figma.com/img/06d9/6e74/fe527730f549b523eb61bf05b668a173?Expires=1612137600&Signature=cesqTAEFsDWyTpFPL2RRwLBc9nWEBz-Il7SuMKNjFq5Spt-CfKbBecJAs2XCrhphM6w3AK0hdRmlLd-kUpbOyJWvbvY~RC~rZyczpEy5d1K0SU1ofSaOnu4Dd2BtsE~ae3YH~1rXBMhTI2QbqGF0hGPa8xdgNMWDfrRbtmYA6dqvZmgPmQj~BFZdpLzCjiLmmL2AZaCpdywms5~Jgmw1zgOm9kNp9YuSX-ubz~4Et8eUrjNrXf5KEsQqv5B8axqJ7Je1ENXOUKA5lhCKb6vOS2~y8CZi3B2CpRz-p7E6Ti12wGd4x3qvuTPCS7foDNg9TEQNllrd4UYFcQu5UMgR2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             class="mx-auto h-48 w-auto"
           />
-          <h4 class="text-xl text-center">Spa Supplies</h4>
+          <h4 class="text-xl text-center font-semibold">Spa Supplies</h4>
         </div>
         <div>
           <img
             src="https://s3-alpha-sig.figma.com/img/5690/87ce/301601a7d77d03e99d8d62afe260b21b?Expires=1612137600&Signature=dKWzhrezb5lHbtyYr-R-P8VRC7WcKO27E7KOaTANsHw5U9r9Emr0FSCzcZWh4QZ-j-LnYOChQBw2TK6URhqWvsjk-z6DtvlEOvyRnBaM6kTOwWscF9mEiTl1RtTBDAXNkWMbHhBsspNf3SAk21ndakWU-V8dxoj5q5RprsteJQ-vQpAYTPqgqFs01gOzt0aVaZiaC2HLkhczdKV2Mc8VtDQCF9dKOLUUrd5PT3L6jgLvPtpisdpedabm93~SD1xzW0jmgItvb9y3rP9im3K4oedhhyC4ecn~VFpyVLslXpJJQxxmB14nLRxxCIWVU8UwKHkfWbH6P5uf79vGF~Hm6A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
             class="mx-auto h-48 w-auto"
           />
-          <h4 class="text-xl text-center">Brands</h4>
+          <h4 class="text-xl text-center font-semibold">Brands</h4>
         </div>
       </div>
     </div>
