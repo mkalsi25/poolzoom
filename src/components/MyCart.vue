@@ -65,7 +65,9 @@
                 <h3 class="text-base font-semibold">
                   {{ cart.title }}
                 </h3>
-                <span class="text-xs font-normal">${{ cart.price }}.00</span>
+                <span class="font-normal">${{ cart.price }}.00</span>
+
+                <p class="text-sm font-normal">In Net Department</p>
               </div>
               <div>
                 <button
@@ -152,7 +154,7 @@
                 <h3 class="text-base font-semibold">
                   {{ cart.title }}
                 </h3>
-                <span class="text-xs font-normal">${{ cart.price }}.00</span>
+                <span class="text-sm font-normal">${{ cart.price }}.00</span>
               </div>
               <div>
                 <button

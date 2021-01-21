@@ -164,10 +164,10 @@
               <div class="flex items-start p-2">
                 <img :src="cart.img" />
                 <div class="px-2">
-                  <h3 class="text-base font-semibold">
+                  <h3 class=" truncate font-semibold">
                     {{ cart.title }}
                   </h3>
-                  <span class="text-xs font-normal">${{ cart.price }}.00</span>
+                  <span class=" font-normal">${{ cart.price }}.00</span>
                   <p class="text-sm font-normal">In Net Department</p>
                 </div>
               </div>
