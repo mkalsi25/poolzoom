@@ -12,9 +12,13 @@ module.exports = {
       maxHeight: {
         mob: "34rem",
       },
+      fontSize: {
+        title: "100px",
+      },
       colors: {
         "black-80": "#40434C",
         "black-60": "#5C5E66",
+        "black-40": "#1B1C1F",
         primary: "#F7873B",
       },
     },

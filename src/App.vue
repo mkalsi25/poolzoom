@@ -4,14 +4,28 @@
     <NavBar />
     <div class="grid">
       <div
-        class="min-h-screen bg-blue-600 bg-opacity-50 row-start-1 col-start-1 relative z-10 flex items-center"
+        class="min-h-screen bg-black-40 bg-opacity-40 row-start-1 col-start-1 relative z-10 flex items-center"
       >
-        <h3 class=" text-4xl lg:text-6xl w-56 text-white lg:px-24 px-4">
-          Spring Promotion
-        </h3>
+        <div>
+          <h2
+            class=" text-4xl md:text-6xl lg:text-title w-56 text-white lg:px-24 px-4"
+          >
+            Spring Promotion
+          </h2>
+          <div class="lg:px-24 px-4 py-4">
+            <button
+              class="px-6 my-2 py-4 bg-primary rounded-full outline-none focus:outline-none text-center text-white"
+            >
+              Search Diagrams
+            </button>
+          </div>
+        </div>
       </div>
       <div class="min-h-screen row-start-1 col-start-1 relative z-0">
-        <img src="@/assets/bg.jpg" class="h-full w-full object-cover" />
+        <img
+          src="https://s3-alpha-sig.figma.com/img/576c/772e/28e2a8133199130d3632add5589d90b5?Expires=1612137600&Signature=Wa1iBjbAC4oGBdTlzcUTsFXSKOmDtsdeKiu-z5ZM1J6audeRTq28S0NdeN6Y4IbQpJNyTmskLJlP5rV~DJiOZImb6u-sMlo8l112lRHA78pzh5wG7~odRkGYR5MVEIm8fFcK31-ha4e~uKQljly4sP6ju4WYcEKQlG-VPULryhIU2-ErsWPTEfPRvnH02-8sG~If3BUMi0Qe6ctGV9wVJMH-r8CYxmXFKTAoE1-pwqK5Qw2LsTEiapwcPWfHdfrdkJA-tSdD~9pVkkpe2nosJWjxSsVopfAti33UBsycuJbSjSJslcdWzPUHIqOKwhNmc~Frs8AvqGGSfMj6c~ESGQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+          class="h-full w-full object-cover"
+        />
       </div>
     </div>
     <div
