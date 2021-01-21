@@ -246,7 +246,7 @@
     <div class="py-12">
       <h3 class="text-4xl text-center py-6">Latest from the PoolZoom Blog</h3>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-0 gap-8 md:px-12 lg:px-24 py-6"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-6 gap-8 md:px-12 lg:px-24 py-6"
       >
         <div>
           <img
@@ -289,18 +289,20 @@
         </button>
       </div>
     </div>
-    <div class="py-12 bg-black-80"></div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import TopBar from "@/components/TopBar";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 export default {
   name: "App",
   components: {
     TopBar,
     NavBar,
+    Footer,
   },
 };
 </script>
