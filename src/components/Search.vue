@@ -80,15 +80,6 @@
                 href="#"
                 class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
               >
-                <strong>{{ search }}</strong
-                >ing pole in all department
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
                 <strong>{{ search }}</strong> bag
               </a>
             </li>
@@ -99,23 +90,6 @@
               >
                 <strong>{{ search }}</strong
                 >ing
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong>
-              </a>
-            </li>
-            <li class="py-1">
-              <a
-                href="#"
-                class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
-              >
-                <strong>{{ search }}</strong
-                >er department
               </a>
             </li>
             <li class="py-1">
