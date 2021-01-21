@@ -15,7 +15,62 @@
       </div>
     </div>
     <div
-      class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-4 lg:px-24 min-h-screen items-center py-8"
+      class="mx-5 md:mx-24 lg:mx-48 bg-white shadow-xl py-12 relative -top-44 z-30"
+    >
+      <h3 class="text-4xl text-center py-6">Looking for a parts diagram?</h3>
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 md:gap-0 items-end px-0 md:px-12"
+      >
+        <div class="p-2">
+          <label>Equipment Type</label>
+          <select
+            name="cars"
+            class="block w-full border py-4 px-2 rounded-full my-2 outline-none focus:outline-none"
+          >
+            <option value="Select One">Select One</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div class="p-2">
+          <label>Equipment Brand</label>
+          <select
+            name="cars"
+            class="block w-full border py-4 px-2 rounded-full my-2 outline-none focus:outline-none"
+          >
+            <option value="Select One">Select One</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div class="p-2">
+          <label>Diagram</label>
+          <select
+            name="cars"
+            class="block w-full border py-4 px-2 rounded-full my-2 outline-none focus:outline-none"
+          >
+            <option value="Select One">Select One</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div class="p-2">
+          <button
+            class="px-6 my-2 py-4 bg-primary rounded-full outline-none focus:outline-none text-center text-white"
+          >
+            Search Diagrams
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="py-6">
+      <h3 class="text-4xl text-center py-6">Best New Deals</h3>
+    </div>
+    <div
+      class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-4 lg:px-24 min-h-full items-center py-8"
     >
       <div>
         <img
