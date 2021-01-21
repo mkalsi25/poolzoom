@@ -46,8 +46,7 @@
                 href="#"
                 class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
               >
-                <strong>{{ search }}</strong
-                >ing pole in all department
+                <strong>{{ search }}</strong> pole
               </a>
             </li>
             <li class="py-1">
@@ -56,7 +55,7 @@
                 class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
               >
                 <strong>{{ search }}</strong
-                >ing in services department
+                >s
               </a>
             </li>
             <li class="py-1">
@@ -73,7 +72,7 @@
                 href="#"
                 class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
               >
-                <strong>{{ search }}</strong> in all department
+                <strong>{{ search }}</strong> for polaris
               </a>
             </li>
             <li class="py-1">
@@ -90,8 +89,7 @@
                 href="#"
                 class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
               >
-                <strong>{{ search }}</strong
-                >ing in services department
+                <strong>{{ search }}</strong> bag
               </a>
             </li>
             <li class="py-1">
