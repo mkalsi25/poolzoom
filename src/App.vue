@@ -16,7 +16,7 @@
             <button
               class="px-6 my-2 py-4 bg-primary rounded-full outline-none focus:outline-none text-center text-white"
             >
-              Search Diagrams
+              Shop Pool Cleaners
             </button>
           </div>
         </div>
