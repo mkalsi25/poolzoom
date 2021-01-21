@@ -118,7 +118,9 @@
     </div>
     <div class="py-12">
       <h3 class="text-4xl text-center py-6">Featured Brands</h3>
-      <div class="flex items-center justify-center overflow-x-auto">
+      <div
+        class="flex items-center justify-start md:justify-center overflow-x-auto"
+      >
         <img src="@/assets/brand.png" />
         <img src="@/assets/2.png" />
         <img src="@/assets/brand.png" />
