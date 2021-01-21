@@ -84,7 +84,7 @@
       <h3 class="text-4xl text-center py-6">Best New Deals</h3>
     </div>
     <div
-      class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-4 lg:px-24 min-h-full items-center py-8"
+      class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-4 lg:px-24 min-h-full items-center pb-16"
     >
       <div>
         <img
@@ -101,12 +101,12 @@
       </div>
       <div>
         <img
-          src="@/assets/sd.png"
+          src="https://s3-alpha-sig.figma.com/img/be9c/95ef/a19113717db3925ddb49a438d15d33d0?Expires=1612137600&Signature=E4nl0dc2o5ZfM7F8NVThoN~5q9CQ3CamE~DL3SvFPfIhl4pdPWt5qgCa324ooRx-8a1LZ8OyRjUaUQ0M2BazCv2JblFu9nzUUosTawsP3xyqJVghS-kO6HAM5NxdfUBXCxorEtt-6IzwdTynavR-tW6hPKtkyihSjARHf8Q1PYOB0Aegva726w0wL6dGObRtdEnoriOy5lfyEAivSKtX9zggRLAi01rVEemqcBgQcMnQdNBSzRhs~~6HU2DQ43TtDnUVeTrwmcSmUec9SZO6265Bl3ctCTGhpfJc698erNbXxvLbLvywQFTRpVtgRog7Sqcxb57s5Dje83cmyuQoRw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
           class="w-full h-64 object-contain bg-gray-100"
         />
         <div class=" px-4">
           <h3 class="text-lg font-semibold">
-            WF-6 WhisperFlo Pool Pump 1.5HP FR 115/230V
+            La-Mesa Passive Diving Bases
           </h3>
           <span class="text-xl text-primary">$620.00</span
           ><span class=" line-through text-black-80 px-2">$650.35</span>
@@ -119,7 +119,7 @@
         />
         <div class=" px-4">
           <h3 class="text-lg font-semibold">
-            WF-6 WhisperFlo Pool Pump 1.5HP FR 115/230V
+            Brilliant Wonders 1.5” Color LED Pool/Spa light
           </h3>
           <span class="text-xl text-primary">$620.00</span
           ><span class=" line-through text-black-80 px-2">$650.35</span>
@@ -127,7 +127,7 @@
       </div>
       <div>
         <img
-          src="@/assets/sd.png"
+          src="https://s3-alpha-sig.figma.com/img/5d43/b950/f19efbaa4ed7715e4ad79f9e5cecd525?Expires=1612137600&Signature=B6bmZMWMIuUpKRLGvBfVPBaH~WLJiNqBF0F2AdlKncLs85JaMZsBPhbGZGzrio5x0Rso5toS5V~u5DsMUfo0qFVHGiz-84fhC0ruV3C3wupllh6psnemNw93159bLxl7Yvnai-jpWzPqXCX2khlVI48nFlQaRmrdGHzPsdZzd~rD0TpUCYio7gvG1RWfE15kPL0tL-bodDf~X0z8KkuDCc6pgs9NbTyWC8xvT2umoHx8HQn8TWdx8lEjGR-wmVggL-BPIh~w4ea8ZLbxWZSpdfru3Vjmc1QeXUIT5mR3bu8jZTmTg8YRTaQR5LsFziunnCzTSuW6FIcME47LQmFzFA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
           class="w-full h-64 object-contain bg-gray-100"
         />
         <div class=" px-4">
