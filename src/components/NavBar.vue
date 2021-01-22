@@ -9,30 +9,72 @@
   >
     <div class="grid grid-cols-12 items-center ">
       <div
-        class="col-span-6 lg:col-span-2 col-start-1 row-start-1 px-4 py-2 lg:py-6 flex"
+        class="col-span-6 lg:col-span-2 col-start-1 row-start-1 px-p-2 py-p-2 flex"
       >
         <button
           @click="isMenu = !isMenu"
-          class="inline-block lg:hidden outline-none focus:outline-none mr-2"
+          class="inline-block lg:hidden outline-none focus:outline-none mr-m-1.1"
         >
           <svg
-            class="p-1"
+            width="20"
+            height="14"
+            viewBox="0 0 20 14"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
           >
-            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M20 2V0H0V2H20ZM20 6V8H0V6H20ZM20 12V14H0V12H20Z"
+              fill="#40434C"
+            />
           </svg>
         </button>
-        <img src="@/assets/Frame.png" class="hidden lg:block" />
-        <img src="@/assets/logo-mobile.png" class="block lg:hidden" />
+        <img src="@/assets/Frame.png" class="hidden lg:block px-p-1.1" />
+        <img src="@/assets/logo-mobile.png" class="block lg:hidden px-p-1.1" />
       </div>
       <Search :carts="carts" />
       <div
-        class="col-span-6 lg:col-span-2 col-start-7 row-start-1 flex items-center ml-auto px-4 py-2 lg:py-6"
+        class="col-span-6 lg:col-span-2 col-start-7 row-start-1 flex items-center justify-end lg:justify-center  px-4 py-2 lg:py-p-2"
       >
-        <div class="px-1">
+        <div class="px-px">
+          <button
+            class="p-2 rounded-full hover:bg-gray-100 outline-none focus:outline-none"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 11C0 17.0751 4.92487 22 11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11ZM20 11C20 15.9706 15.9706 20 11 20C6.02944 20 2 15.9706 2 11C2 6.02944 6.02944 2 11 2C15.9706 2 20 6.02944 20 11ZM11.0003 15.9983C11.5528 15.9983 12.0007 15.5506 12.0007 14.9983C12.0007 14.4461 11.5528 13.9983 11.0003 13.9983C10.4479 13.9983 10 14.4461 10 14.9983C10 15.5506 10.4479 15.9983 11.0003 15.9983ZM10 13H12C12 12.2016 12.1254 12.0553 12.9472 11.6444C14.3754 10.9303 15 10.2016 15 8.5C15 6.32063 13.2843 5 11 5C8.79086 5 7 6.79086 7 9H9C9 7.89543 9.89543 7 11 7C12.2772 7 13 7.55641 13 8.5C13 9.29835 12.8746 9.44468 12.0528 9.85557C10.6246 10.5697 10 11.2984 10 13Z"
+                fill="#40434C"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="px-px">
+          <button
+            class="p-2 rounded-full hover:bg-gray-100 outline-none focus:outline-none"
+          >
+            <svg
+              width="22"
+              height="22"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M3 18h-2c-.552 0-1-.448-1-1v-13c0-.552.448-1 1-1h13c.552 0 1 .448 1 1v2h4.667c1.117 0 1.6.576 1.936 1.107.594.94 1.536 2.432 2.109 3.378.188.312.288.67.288 1.035v4.48c0 1.089-.743 2-2 2h-1c0 1.656-1.344 3-3 3s-3-1.344-3-3h-6c0 1.656-1.344 3-3 3s-3-1.344-3-3zm3-1.2c.662 0 1.2.538 1.2 1.2 0 .662-.538 1.2-1.2 1.2-.662 0-1.2-.538-1.2-1.2 0-.662.538-1.2 1.2-1.2zm12 0c.662 0 1.2.538 1.2 1.2 0 .662-.538 1.2-1.2 1.2-.662 0-1.2-.538-1.2-1.2 0-.662.538-1.2 1.2-1.2zm-3-2.8h-13v2h1.765c.549-.614 1.347-1 2.235-1 .888 0 1.686.386 2.235 1h7.53c.549-.614 1.347-1 2.235-1 .888 0 1.686.386 2.235 1h1.765v-4.575l-1.711-2.929c-.179-.307-.508-.496-.863-.496h-4.426v6zm-2-9h-11v7h11v-7zm3 4v3h5l-1.427-2.496c-.178-.312-.509-.504-.868-.504h-2.705z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="px-px">
           <button
             @click="account = !account"
             @mouseenter="account = !account"
@@ -52,9 +94,9 @@
           </button>
           <MyAccount v-if="account" />
         </div>
-        <div class="px-1">
+        <div class="px-px">
           <span
-            class="inline-block h-4 w-4 text-xs bg-blue-500 text-white text-center rounded-full relative -top-4 left-10
+            class="inline-block h-4 w-4 text-xs bg-blue-500 text-white text-center rounded-full absolute ml-5
       "
             >{{ this.carts.length }}</span
           >
@@ -82,7 +124,7 @@
         <MyCart v-if="isOpen" :carts="carts" />
       </div>
       <div
-        class="col-span-12 bg-gray-50 py-0 lg:py-4 justify-between px-16"
+        class="col-span-12 bg-gray-50 py-0 lg:py-p-1 justify-between px-p-3.5"
         :class="[
           isSticky
             ? 'lg:hidden transition duration-200 ease-in-out'
@@ -98,13 +140,13 @@
             <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
           </div>
           <div
-            class="fixed min-h-screen z-40 left-0 top-0 bg-white w-80 flex lg:hidden"
+            class="fixed min-h-screen z-40 left-0 top-0 bg-white w-80 flex lg:hidden px-p-2"
             v-if="isMenu"
           >
             <ul class="w-full">
               <button
                 @click="isMenu = !isMenu"
-                class="outline-none focus:outline-none p-2"
+                class="outline-none focus:outline-none py-p-1"
               >
                 <svg
                   class="p-1"
@@ -119,7 +161,7 @@
                 </svg>
               </button>
               <li
-                class="w-full p-1 text-xl font-semiboldw"
+                class="w-full py-p-1 text-menu font-normal"
                 v-for="(item, index) in menuItems"
                 :key="index"
               >
@@ -151,23 +193,22 @@
           <button
             @click="isClose = !isClose"
             @mouseenter="isClose = !isClose"
-            class="flex justify-between hover:text-blue-600 bg-transparent focus:text-blue-600 outline-none focus:outline-none"
+            class="flex lg:mx-m-1 xl:mx-m-4 hover:text-blue-600 text-colmenu font-semibold bg-transparent text-menu focus:text-blue-600 outline-none focus:outline-none"
           >
             {{ item.title }}
           </button>
           <div v-if="isClose">
             <div
               v-if="item.accessories"
-              class="origin-top-right absolute mt-10 -ml-16 max-w-xl w-full rounded-md shadow-lg bg-white"
+              class="origin-top-right absolute mt-10 -ml-24 max-w-xl w-full rounded-drop shadow-lg bg-white"
             >
               <div
-                class=" px-4"
                 role="menu"
                 aria-orientation="vertical"
                 aria-labelledby="options-menu"
               >
                 <div class="h-full grid grid-cols-2">
-                  <ul class="px-3 font-semibold py-3">
+                  <ul class="px-p-1 font-semibold py-p-0.5 text-menu">
                     <li
                       class="py-1"
                       v-for="(i, index) in item.accessories"
@@ -177,7 +218,7 @@
                     </li>
                   </ul>
                   <ul
-                    class="border-l-2 border-gray-200 font-light px-4 py-3 text-sm"
+                    class="border-l-2 border-gray-200 font-normal px-p-1 py-p-0.5 text-submenu"
                   >
                     <li
                       class="py-1"
@@ -217,7 +258,7 @@ export default {
   methods: {
     handleScroll() {
       this.scrollPosition = window.scrollY;
-      if (this.scrollPosition >= 10) {
+      if (this.scrollPosition >= 5) {
         this.isSticky = true;
       } else {
         this.isSticky = false;

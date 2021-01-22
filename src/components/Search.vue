@@ -1,6 +1,6 @@
 <template>
   <div
-    class="col-span-12 lg:col-span-8 md:row-start-2 lg:row-start-1 bg-gray-50 lg:bg-transparent px-3 lg:px-0 group"
+    class="col-span-12 lg:col-span-8 md:row-start-2 lg:row-start-1 bg-gray-50 lg:bg-transparent px-p-2 lg:px-0 group"
     :class="[
       isSticky
         ? 'fixed top-0 lg:relative w-full z-30 transition duration translate-y-0 transform ease-in-out'
@@ -27,13 +27,14 @@
       </svg>
     </span>
     <div v-if="search" class="w-11/12 lg:w-full h-96 absolute">
-      <div class="grid grid-cols-12 bg-white rounded-lg shadow-xl ">
-        <div class="col-span-12 lg:col-span-4 p-3">
-          <span class="uppercase text-gray-400 text-xs tracking-widest"
+      <div class="grid grid-cols-12 bg-white rounded-drop shadow-xl ">
+        <div class="col-span-12 lg:col-span-4 px-p-1 py-p-1.5">
+          <span
+            class="uppercase text-gray-400 text-small font-medium  tracking-widest"
             >Search Result</span
           >
-          <ul class="text-lg py-2">
-            <li class="py-1" v-for="(l, index) in line" :key="index">
+          <ul class="text-menu py-p-0.2">
+            <li class="py-p-0.2" v-for="(l, index) in line" :key="index">
               <a
                 href="#"
                 class="hover:text-blue-600 focus:text-blue-600 outline-none focus:outline-none"
@@ -43,35 +44,39 @@
               </a>
             </li>
           </ul>
-          <div class="py-2">
-            <span class="uppercase text-gray-400 text-xs tracking-widest"
+          <div class="py-p-1">
+            <span
+              class="uppercase text-gray-400 text-small font-medium  tracking-widest"
               >Categories</span
             >
-            <ul class="text-lg py-2">
+            <ul class="text-menu py-p-0.2">
               <li>Chemical</li>
             </ul>
           </div>
-          <span class="uppercase text-gray-400 text-xs tracking-widest pt-3"
+          <span
+            class="uppercase text-gray-400 text-small font-medium  tracking-widest pt-3"
             >Pages</span
           >
-          <ul class="text-lg py-2">
-            <li>Privacy Policy</li>
-            <li>Customer Service</li>
+          <ul class="text-menu py-p-0.2">
+            <li class="py-p-0.2">Privacy Policy</li>
+            <li class="py-p-0.2">Customer Service</li>
           </ul>
         </div>
-        <div class="col-span-8 border-l-2 border-gray-200 p-3 hidden lg:block">
+        <div
+          class="col-span-8 border-l-2 border-gray-200 px-p-1 py-p-1.5 hidden lg:block"
+        >
           <div class="flex items-center">
             <span
-              class="uppercase text-gray-400 text-xs tracking-widest mr-auto"
+              class="uppercase text-gray-400 text-small tracking-widest mr-auto"
               >Products</span
             >
-            <span class=" text-blue-600 text-xs ml-auto"
+            <span class=" text-blue-600 text-small font-medium ml-auto"
               >View all {{ this.carts.length }},000 Products</span
             >
           </div>
-          <div class=" grid grid-cols-2 gap-4 py-3">
+          <div class=" grid grid-cols-2 gap-4 py-p-1">
             <div
-              class="border w-full rounded"
+              class="border w-full rounded-drop"
               role="menuitem"
               v-for="(cart, index) in carts.slice(0, 4)"
               :key="index"
@@ -79,7 +84,7 @@
               <div class="flex items-start p-2">
                 <img :src="cart.img" />
                 <div class="px-2">
-                  <h3 class=" truncate font-semibold">
+                  <h3 class="font-semibold">
                     {{ cart.title }}
                   </h3>
                   <span class=" font-normal">${{ cart.price }}.00</span>
@@ -88,12 +93,12 @@
               </div>
             </div>
           </div>
-          <div class="py-2">
+          <div class="py-p-1">
             <span
-              class="uppercase text-gray-400 text-xs tracking-widest mr-auto"
+              class="uppercase text-gray-400 text-small font-medium  tracking-widest mr-auto"
               >Diagrams</span
             >
-            <ul class="text-lg">
+            <ul class="text-menu py-p-0.2">
               <li>No results</li>
             </ul>
           </div>

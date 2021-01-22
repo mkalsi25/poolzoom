@@ -8,12 +8,12 @@
       <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
     </div>
     <div
-      class="min-h-screen fixed top-0 left-0 w-80 bg-white block lg:hidden"
+      class="min-h-screen fixed top-0 left-0 w-80 bg-white block lg:hidden px-p-2"
       v-if="isOpen"
     >
       <button
         @click="isOpen = !isOpen"
-        class="outline-none focus:outline-none p-2"
+        class="outline-none focus:outline-none py-p-1"
       >
         <svg
           class="p-1"
@@ -28,7 +28,7 @@
         </svg>
       </button>
       <div
-        class="py-1 px-4"
+        class="py-p-0.5"
         role="menu"
         aria-orientation="vertical"
         aria-labelledby="options-menu"
@@ -37,7 +37,7 @@
           v-if="carts.length == 0"
           class="h-mob flex items-center justify-center"
         >
-          <div class="m-1 p-2 border">
+          <div class="m-1 p-2 rounded-drop border">
             <svg
               class="h-24 w-auto mx-auto text-black-80 fill-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -52,22 +52,24 @@
             <h4 class="text-center">Empty</h4>
           </div>
         </div>
-        <div v-else class="max-h-mob h-full overflow-y-auto mb-2">
+        <div v-else class="max-h-mob h-full overflow-y-auto pb-2 border-b">
           <div
-            class="border w-full rounded my-3"
+            class="border w-full rounded-drop my-m-1"
             role="menuitem"
             v-for="(cart, index) in carts"
             :key="index"
           >
-            <div class="flex items-start p-2">
+            <div class="flex items-start p-p-0.9">
               <img :src="cart.img" />
               <div class="px-2">
-                <h3 class="text-base font-semibold">
+                <h3 class="text-submenu font-semibold">
                   {{ cart.title }}
                 </h3>
-                <span class="font-normal">${{ cart.price }}.00</span>
+                <span class="font-normal text-submenu"
+                  >${{ cart.price }}.00</span
+                >
 
-                <p class="text-sm font-normal">In Net Department</p>
+                <p class="text-small font-normal">In Net Department</p>
               </div>
               <div>
                 <button
@@ -93,20 +95,20 @@
             </div>
           </div>
         </div>
-        <div class="flex w-full text-black-80">
+        <div class="flex w-full text-black-80  text-menu py-p-1.8">
           <span class="mr-auto block w-full"
             >Subtotal ( {{ carts.length }} items)</span
           >
           <span class="ml-auto font-semibold">${{ total }}.00</span>
         </div>
-        <div class="block w-full py-5">
+        <div class="block w-full text-submenu">
           <button
-            class="w-full rounded-full block border-black-80 border px-2 py-3 text-center my-2"
+            class="w-full rounded-full block border-black-80 border px-2 py-p-0.6 text-center mb-m-1"
           >
             View Cart
           </button>
           <button
-            class="w-full rounded-full block bg-primary text-white px-2 py-3 text-center my-2"
+            class="w-full rounded-full block bg-primary text-white px-2 py-p-0.6 text-center my-m-1"
           >
             Checkout
           </button>
@@ -114,7 +116,7 @@
       </div>
     </div>
     <div
-      class="origin-top-right absolute right-0 mt-8 mr-6 w-80 rounded-md shadow-md bg-white hidden lg:block"
+      class="origin-top-right absolute right-0 mt-8 mr-6 w-80 rounded-drop shadow-md bg-white hidden lg:block"
     >
       <div
         class="py-1 px-4"
@@ -126,7 +128,7 @@
           v-if="carts.length == 0"
           class="h-96 flex items-center justify-center"
         >
-          <div class="m-1 p-2 border">
+          <div class="m-1 p-2 rounded-drop border">
             <svg
               class="h-24 w-auto mx-auto text-black-80 fill-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -141,20 +143,22 @@
             <h4 class="text-center">Empty</h4>
           </div>
         </div>
-        <div v-else class=" h-full">
+        <div v-else class="h-full">
           <div
-            class="border w-full rounded my-3"
+            class="border w-full rounded-drop my-m-1"
             role="menuitem"
             v-for="(cart, index) in carts.slice(0, 3)"
             :key="index"
           >
-            <div class="flex items-start p-2">
+            <div class="flex items-start p-p-0.9">
               <img :src="cart.img" />
               <div class="px-2">
-                <h3 class="text-base font-semibold">
+                <h3 class="text-menu font-semibold">
                   {{ cart.title }}
                 </h3>
-                <span class="text-sm font-normal">${{ cart.price }}.00</span>
+                <span class="text-sm font-normal text-submenu"
+                  >${{ cart.price }}.00</span
+                >
               </div>
               <div>
                 <button
@@ -180,25 +184,25 @@
             </div>
           </div>
         </div>
-        <div class="pb-3">
+        <div class="text-menu">
           <span v-if="carts.length > 3" class="text-black-80 font-medium "
             >+{{ carts.length - 3 }} more
           </span>
         </div>
-        <div class="flex w-full text-black-80">
+        <div class="flex w-full text-black-80 text-menu py-p-1.8">
           <span class="mr-auto block w-full"
             >Subtotal ( {{ carts.length }} items)</span
           >
           <span class="ml-auto font-semibold">${{ total }}.00</span>
         </div>
-        <div class="block w-full py-5">
+        <div class="block w-full text-submenu">
           <button
-            class="w-full rounded-full block border-black-80 border px-2 py-3 text-center my-2"
+            class="w-full rounded-full block border-black-80 border px-2 py-p-0.6 text-center mb-m-1"
           >
             View Cart
           </button>
           <button
-            class="w-full rounded-full block bg-primary text-white px-2 py-3 text-center my-2"
+            class="w-full rounded-full block bg-primary text-white px-2 py-p-0.6 text-center my-m-1"
           >
             Checkout
           </button>

@@ -1,18 +1,22 @@
 <template>
   <div class="pt-12 bg-black-80">
-    <div class="py-6 mx-6 bg-black-60">
+    <div class="py-6 mx-6 md:mx-8 lg:mx-24 bg-black-60">
       <div
         class="grid grid-cols-1 lg:flex gap-8 justify-items-stretch items-center justify-center"
       >
         <div>
-          <h4 class="text-white text-center lg:text-left">Need Help?</h4>
+          <h4
+            class="text-white text-center lg:text-left text-product font-semibold"
+          >
+            Need Help?
+          </h4>
         </div>
         <div class="px-3">
           <button
             class="rounded-full px-5 py-4 outline-none focus:outline-none w-full text-white border-2 border-white flex items-center"
           >
             <svg
-              class="p-1 mx-2 text-white fill-current"
+              class="p-1 mx-1 text-white fill-current"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -30,7 +34,7 @@
             class="rounded-full px-5 py-4 outline-none focus:outline-none w-full text-white border-2 border-white flex items-center"
           >
             <svg
-              class="p-1 mx-2 text-white fill-current"
+              class="p-1 mx-1 text-white fill-current"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -48,7 +52,7 @@
             class="rounded-full px-5 py-4 outline-none focus:outline-none w-full text-white border-2 border-white flex items-center"
           >
             <svg
-              class="p-1 mx-2 text-white fill-current"
+              class="p-1 mx-1 text-white fill-current"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -62,7 +66,9 @@
           </button>
         </div>
         <div>
-          <h4 class="text-white w-72 text-center lg:text-left mx-auto">
+          <h4
+            class="text-white w-56 text-center lg:text-left font-semibold text-submenu mx-auto"
+          >
             Customer Service is open Monday-Friday, 9AM-6PM CT
           </h4>
         </div>
@@ -70,17 +76,17 @@
     </div>
     <div class="py-12 px-4 md:px-48 border-b-2 border-black-60">
       <div class="grid grid-cols-2 gap-8 md:grid-cols-3 justify-items-center">
-        <ul class="text-white">
+        <ul class="text-white text-submenu font-semibold">
           <li>Order Tracking</li>
           <li>Shipping Info</li>
           <li>Return Policy</li>
         </ul>
-        <ul class="text-white">
+        <ul class="text-white text-submenu font-semibold">
           <li>About Us</li>
           <li>Locations</li>
           <li>News</li>
         </ul>
-        <ul class="text-white">
+        <ul class="text-white text-submenu font-semibold">
           <li>Privacy Policy</li>
           <li>PoolZoom Blog</li>
           <li>FAQ</li>
@@ -94,16 +100,16 @@
         </div>
       </div>
       <div class="p-5 border-b-2 md:border-r-2 border-black-60">
-        <label class="text-black-60">Sign up for savings and tips</label>
+        <label class="text-black-20">Sign up for savings and tips</label>
         <div class="grid items-center py-4">
           <input
             type="email"
-            class="w-full col-start-1 row-start-1 bg-white p-6 rounded-full outline-none focus:outline-none"
+            class="w-full col-start-1 row-start-1 bg-white p-4 rounded-full outline-none focus:outline-none"
             placeholder="Your email"
           />
           <div class="ml-auto col-start-1 row-start-1">
             <button
-              class="px-6 py-5 mr-1 bg-primary rounded-full outline-none focus:outline-none text-center text-white"
+              class="px-6 py-3 mr-1 bg-primary rounded-full outline-none focus:outline-none text-center text-white"
             >
               Subscribe
             </button>

@@ -1,13 +1,13 @@
 <template>
   <div>
     <div
-      class="fixed min-h-screen z-40 left-0 top-0 bg-white w-80 block lg:hidden"
+      class="fixed min-h-screen z-40 left-0 top-0 bg-white w-80 block lg:hidden px-p-2"
       v-if="isMenu"
     >
       <ul class="w-full">
         <button
           @click="isMenu = !isMenu"
-          class="outline-none focus:outline-none p-2"
+          class="outline-none focus:outline-none py-p-1"
         >
           <svg
             class="p-1"
@@ -21,7 +21,7 @@
             />
           </svg>
         </button>
-        <li class="w-full px-1 py-2 text-xl">
+        <li class="w-full py-p-1 text-menu">
           <a href="#" class="flex items-center">
             <span class="mr-auto p-1">
               My Account
@@ -39,7 +39,7 @@
             </span>
           </a>
         </li>
-        <li class="w-full px-1 py-2 text-xl">
+        <li class="w-full py-p-1 text-menu">
           <a href="#" class="flex items-center">
             <span class="mr-auto p-1">
               My orders
@@ -49,7 +49,7 @@
       </ul>
     </div>
     <div
-      class="origin-top-right absolute right-0 mt-2 w-56 mr-16 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden lg:block"
+      class="origin-top-right absolute right-0 mt-2 w-56 mr-16 rounded-drop shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden lg:block"
     >
       <div
         class="py-1"
@@ -59,20 +59,20 @@
       >
         <a
           href="#"
-          class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 hover:text-blue-600"
+          class="block px-p-1 py-p-0.2 text-menu text-gray-700 hover:bg-blue-100 hover:text-blue-600"
           role="menuitem"
           >My Account</a
         >
         <a
           href="#"
-          class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 hover:text-blue-600"
+          class="block px-p-1 py-p-0.2 text-menu text-gray-700 hover:bg-blue-100 hover:text-blue-600"
           role="menuitem"
           >My Orders</a
         >
         <form method="POST" action="#">
           <button
             type="submit"
-            class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 hover:text-blue-600 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
+            class="block w-full text-left px-p-1 py-p-0.2 text-menu text-gray-700 hover:bg-blue-100 hover:text-blue-600 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
             role="menuitem"
           >
             Sign out

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-black text-white text-center p-3">
+  <div class="w-full bg-black text-white text-center text-menu p-3">
     {{ msg }}
   </div>
 </template>
